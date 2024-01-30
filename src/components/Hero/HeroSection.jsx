@@ -20,7 +20,7 @@ const HeroSection = () => {
       <h2>Hey, I'm <span style={{color: "#9077e3"}}>Ravichandran</span></h2>
       <p> Experienced web developer with a passion for creating responsive and user-friendly websites. Skilled in HTML, CSS, JavaScript, and various web development frameworks, with a focus on delivering high-quality, visually appealing web solutions.</p>
       
-      <button className="contact-btn" onClick={openPdfInNewTab}>Know More</button>
+      <button className="contact-btn hero-btn" onClick={openPdfInNewTab}>Know More</button>
     </div>
     <div className='hero-image'>
         <div>
