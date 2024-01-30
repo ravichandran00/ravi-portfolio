@@ -66,6 +66,14 @@
   border-radius: 5rem;
 }
 
+.contact-btn {
+    margin-top: 2rem;
+}
+.contact-btn a {
+    color: white;
+    text-decoration: none;
+}
+
 .tech-icon img {
   width: 3rem;
   height: auto;

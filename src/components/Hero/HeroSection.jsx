@@ -8,12 +8,19 @@ import  HTMLimage from '../../assets/HTML.png'
 
 
 const HeroSection = () => {
+
+  const openPdfInNewTab = () => {
+    const pdfUrl = '/src/assets/ravi-chandran-s.pdf';
+    window.open(pdfUrl, '_blank');
+  };
   return (
    <>
    <section className='hero-container'>
     <div className='hero-content'>
-      <h2>Hey, I'm Web Developer</h2>
-      <p> lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      <h2>Hey, I'm <span style={{color: "#9077e3"}}>Ravichandran</span></h2>
+      <p> Experienced web developer with a passion for creating responsive and user-friendly websites. Skilled in HTML, CSS, JavaScript, and various web development frameworks, with a focus on delivering high-quality, visually appealing web solutions.</p>
+      
+      <button className="contact-btn" onClick={openPdfInNewTab}>Know More</button>
     </div>
     <div className='hero-image'>
         <div>
