@@ -21,6 +21,12 @@
     margin-left: 1rem;
 }
 
+.social-icons a {
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
 .logo-section {
     display: flex;
     align-items: center;

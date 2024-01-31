@@ -35,10 +35,10 @@
     left: -1rem;
 }
 
-.skill-icon img {
-    width: 2.4rem;
+.skill-icon svg {
+    width: 1.4rem;
     height: auto;
-        object-fit: contain;
+    object-fit: contain;
 }
 
 

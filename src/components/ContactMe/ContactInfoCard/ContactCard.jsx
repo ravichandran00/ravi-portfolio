@@ -1,15 +1,14 @@
 import React from 'react'
-import { CiMail } from 'react-icons/ci'
 import './ContactCard.css'
+import  {FontAwesomeIcon}  from '@fortawesome/react-fontawesome';
+
 
 const ContactCard = ({iconURL , text}) => {
   return (
     <div className='contact-details-card'>
      <div className='icon'>
-      <img src={iconURL} alt='text'/>
+     <FontAwesomeIcon icon={iconURL}/>
      </div>
-
-
      <p>{text}</p>
     </div>
 

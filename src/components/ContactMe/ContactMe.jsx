@@ -1,6 +1,7 @@
 import React from 'react';
 import './ContactMe.css';
-import { CiMail } from "react-icons/ci";
+import  {FontAwesomeIcon}  from '@fortawesome/react-fontawesome';
+import '../../utils/fontAwesome';
 import ContactCard from './ContactInfoCard/ContactCard';
 import ContactForm from './ContactForm/ContactForm';
 
@@ -12,8 +13,8 @@ const ContactMe = () => {
             <div className='contact-content'> 
                <div style={{flex:1}}>
                 
-                <ContactCard text={"Ravichan.s@outlook.com"} iconURL={<CiMail/>}/>
-                <ContactCard text={"GitHub"}/>
+                <ContactCard text={"Ravichan.s@outlook.com"} iconURL="mail" />
+                <ContactCard text={"GitHub"}  iconURL="cogs"/>
                </div>
                <div style={{flex:1}}>
                 <ContactForm/>
